@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Rubik+Glitch+Pop&display=swap');
+
+body{
+  background-color: #90A67B;
+}
+.flex-container {
+  justify-content: space-between;
+  flex-direction: column;
+  align-items:center;
+  display: flex;
+  background-color: #90A67B;
+  padding-left: 300px;
+  padding-right: 0px;
+  margin: 0px;
+}
+h1{
+  color: #8C2A32;
+  font-family: 'Rubik Glitch Pop', system-ui;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  display: block;
+  font-size: 64px;
+  text-align: center;
+  text-decoration: underline overline;
+}
+h2{
+  color: #D9CFCC;
+  font-family:"helvetica neue 65 medium",Arial,sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+p{
+  color: #262523;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family:"helvetica neue 65 medium",Arial,sans-serif;
+}
+p1{
+  color: #D9CFCC;
+  font-size: 24px;
+  line-height: 1.5;
+  display: inline-block;
+  font-family:"helvetica neue 65 medium",Arial,sans-serif;
+}
+.sidenav {
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  background-color: #3D4A73;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav a {
+  padding: 0px 0px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-family:"helvetica neue 65 medium",Arial,sans-serif;
+  text-decoration: none;
+  color: #262523;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #D9CFCC;
+}
+
+.cellfinal a:hover{
+  opacity: 0.7;
+}
+
+.grid {
+  display: flex;                       
+  flex-wrap: wrap;                     
+  justify-content: space-around;
+  padding-left: 300px;
+  
+}
+.cell {
+  object-fit: cover; 
+  flex: 0 0 30%;                       
+  height: 700px;
+  margin-bottom: 5px;
+  background-color: #8C2A32;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.cellfinal{
+  object-fit: cover;                     
+  height: 215px;
+  width: 215px;
+  margin-bottom: 0px;
+  background-color: #8C2A32;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.gridmain {
+  display: flex;                       
+  flex-wrap: wrap;                     
+  justify-content: space-around;
+}
+.cellmain{
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 300px;
+  margin-bottom: 5px;
+}
